@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* CSS Default */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #172121;
+    color: #F6F7F8;
+}
+/* Main Area */
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    margin: 20px 0 10px;
+    font-size: 80px;
+}
+
+#res {
+    display: none;
+    padding: 12px;
+    color: #ffff00;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 14px;
+}
+
+div {
+    margin: 10px 0 30px;
+}
+
+input[type="number"] {
+    height: 50px;
+    width: 250px;
+    padding-left: 20px;
+    background-color: #36393B;
+    color: #ffffff;
+    font-size: 18px;
+    border: 1px solid #172121;
+    border-radius: 14px;
+}
+
+input[type="number"]::placeholder {
+    color: #cccccc;
+}
+
+input[type="number"]:focus {
+    border: 1px solid #ffffff;
+}
+
+input[type="number"]::-webkit-outer-spin-button, #app-sorteio input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"]#input-min {
+    margin-right: 30px;
+}
+
+#button-sort {
+    height: 50px;
+    width: 250px;
+    background-color: #36a5f5;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#button-sort:hover {
+    background-color: #3b85ba;
+}
+
+#button-sort:active {
+    background-color: #46779a;
+}
